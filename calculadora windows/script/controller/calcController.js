@@ -464,11 +464,11 @@ class calcController{
   }
   initKeyboardEvents(){
 
-    document.addEventListener("keyup", e=>{
+    document.addEventListener("keydown", e=>{
 
       this.execKey(e.key);
 
-    });
+    },false);
 
   }
   addEventListenerAll(element, events, fn){
