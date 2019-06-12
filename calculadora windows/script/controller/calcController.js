@@ -152,7 +152,7 @@ class calcController{
   }
   clearAll(){
 
-    this._operation = ["0"];
+    this._operation = [];
     this._lastNum = '';
     this._lastOperator = '';
 
