@@ -263,11 +263,7 @@ class calcController{
     }
 
   }
-    if (this.getLastOperation() == '') {
 
-      this.setLastOperation("0");
-
-    }
     this.setLastNumberToDisplay();
 
   }
